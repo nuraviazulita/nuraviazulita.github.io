@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+</head>
+<body>
+    <!-- Judul -->
+    <h1>Tabel Pengalaman Organisasi dan Kepanitiaan</h1>
+
+    <form>
+       <p>Nama:</p> 
+       <input type="text" name="nama" placeholder="enter your name">
+       <p>Pengalaman</p>
+       <input type="text" name="pengalaman" placeholder="tuliskan pengalaman organisasi atau kepanitaan">
+       <input type="text" name="tahun">
+       <div>
+       <input type="submit" value="Kirim">
+       <input type="reset" value="Reset">
+       <div>
+    </form>
+
+    <br>
+
+
+    <!-- 
+        no, tahun, posisi
+     -->
+
+     <table border="2">
+        <tr>
+            <th>No</th>
+            <th>Tahun</th>
+            <th>Posisi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2021</td>
+            <td>Staff Ri'ayah Takmir Masjid Al-Hikmah Universitas Jember</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2021</td>
+            <td>Staff Hubungan Eksternal Koperasi Mahasiswa Universitas Jember</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2021</td>
+            <td>Sie Acara Webinar Koperasi Mahasiswa Universitas Jember</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2021</td>
+            <td>Bendahara Diklat Dasar Koperasi Mahasiswa Universitas Jember</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2022</td>
+            <td>Sie Danus Webinar Nasional Koperasi Mahasiswa</td>
+        </tr>
+        <tr>        
+            <td>3</td>
+            <td>2021</td>
+            <td>Bendahara Diklat Dasar Koperasi Mahasiswa Universitas Jember</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2022</td>
+            <td>Kepala Devisi Toko Membran Koperasi Mahasiswa Universitas Jember</td>
+        </tr>
+     
+     </table>
+</body>
+</html>
