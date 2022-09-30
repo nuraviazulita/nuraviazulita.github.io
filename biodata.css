@@ -1,0 +1,79 @@
+body
+{
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1
+{
+    margin: 0;
+}
+
+header
+{
+    background-color: #171b26;
+    color: white;
+}
+
+main
+{
+   background-color: white; 
+}
+
+.container
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.sidebar
+{
+    width: 300px;
+    background-color: #212530;;
+    padding: 50px 0;
+    float: left;
+}
+
+.sidebar img
+{
+    width: 100%;
+}
+
+.content
+{
+    float: left;
+    width: 400px;
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
+
+.clearfix
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float-50
+{
+    float: left;
+    width: 50%;
+}
+
+.mb-1
+{
+    margin-bottom: 1.5rem;
+}
+
+.mt-2
+{
+    margin-top: 1.5rem;
+}
+
+main .sidebar
+{
+    background-color: lightgray;
+    padding: 50px 50px;
+    box-sizing: border-box;
+}
+
