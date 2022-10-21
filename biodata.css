@@ -1,103 +1,37 @@
-body
-{
-    line-height: 1.5;
-    margin: 0;
+.image-hero{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
-h1
-{
-    margin: 0;
+.title{
+    font-family: 'Raleway', sans-serif;
 }
 
-header
-{
-    background-color: #171b26;
-    color: white;
+.subtitle{
+    letter-spacing: 10px;
 }
 
-main
-{
-   background-color: white; 
+#hero{
+    height: 95vh;
 }
 
-.container
-{
-    width: 800px;
-    margin: 0 auto;
-}
-
-.sidebar
-{
-    width: 300px;
-    background-color: #212530;;
-    padding: 50px 0;
-    float: left;
-}
-
-.sidebar img
-{
+.shadow{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.content
-{
-    float: left;
-    width: 400px;
-    padding: 50px 50px;
-    box-sizing: border-box;
+.text-about{
+    text-indent: 50px;
+    text-align: justify;
 }
 
-.clearfix
-{
-    content: "";
-    clear: both;
-    display: table;
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
 }
 
-.float-50
-{
-    float: left;
-    width: 50%;
+.card-text{
+    text-align: justify;
 }
-
-.mb-1
-{
-    margin-bottom: 1.5rem;
-}
-
-.mt-2
-{
-    margin-top: 1.5rem;
-}
-
-main .sidebar
-{
-    background-color: lightgray;
-    padding: 50px 50px;
-    box-sizing: border-box;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
- }
-  
-.nav li {
-    float: left;
- }
-  
-.nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-.nav li a:hover {
-    background-color: #111;
-  }
-
